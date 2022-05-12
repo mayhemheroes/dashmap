@@ -14,7 +14,7 @@ WORKDIR /dashmap/
 ## TODO: ADD YOUR BUILD INSTRUCTIONS HERE.
 
 WORKDIR /dashmap/fuzz/
-RUN cargo fuzz build
+RUN cargo +nightly fuzz build
 
 FROM --platform=linux/amd64 rustlang/rust:nightly
 
