@@ -1,5 +1,6 @@
 #![doc = include_str!("../README.md")]
 #![allow(clippy::type_complexity)]
+#![feature(available_parallelism)]
 
 #[cfg(feature = "arbitrary")]
 mod arbitrary;
