@@ -1,4 +1,5 @@
 #![allow(clippy::type_complexity)]
+#![feature(available_parallelism)]
 
 pub mod iter;
 pub mod iter_set;
