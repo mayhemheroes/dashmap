@@ -1,5 +1,5 @@
 #![no_main]
-#![feature(array_chunks)]
+
 use libfuzzer_sys::fuzz_target;
 
 use dashmap::DashMap;
